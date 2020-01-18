@@ -1,0 +1,28 @@
+<%- include ('../includes/head.ejs') %>
+    <body>
+        <%- include ('../includes/topnav.ejs') %>
+        <main>
+            <h1>Add Product</h1>
+            <form method="POST" action="/add-product">
+                <div class="form-row">
+                    <label for="prodName">Product Name</label>
+                    <input name="prodName" type="text" id="prodName">
+                </div>
+                <div class="form-row">
+                    <label for="prodName">Image URL</label>
+                    <input name="imgURL" type="text" id="imgURL">
+                </div>
+                <div class="form-row">
+                    <label for="prodDesc">Product Description</label>
+                    <input name="prodDesc" type="text" id="prodDesc">
+                </div>
+                <div class="form-row">
+                    <label for="prodPrice">Product Price</label>
+                    <input name="prodPrice" type="text" id="prodPrice">    
+                </div> 
+                <div class="form-row">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </main>
+        <%- include ('../includes/end.ejs') %>

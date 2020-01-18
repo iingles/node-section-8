@@ -1,0 +1,91 @@
+/* 
+    Colors:
+    
+    color1: #61E294 very light malachite green
+    color2: #7BCDBA pearl aqua
+    color3: #9799CA ceil
+    color4: #BD93D8 bright lavender
+    color5: #B47AEA lavender(floral)
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-header {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+    align-items: center;
+    background: #61E294;
+    padding: 10px 0;
+}
+
+.top-nav a {
+    margin: 0 10px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-header {
+    padding: 5px 10px;
+    background: #B47AEA;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+.card {
+    width: 200px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px #555;
+    border-radius: 10px;
+}
+
+.card-content {
+    padding: 3px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 10px 0;
+}
+
+.form-row label {
+    width: 200px;
+    margin: 0 10px 0 0;
+}
+
+.form-row input {
+    width: 300px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+
+}
+
+.form-row button {
+    padding: 5px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: #fff;
+    background: #BD93D8;
+    border: 1px solid #BD93D8;
+    border-radius: 5px;
+    cursor: pointer;
+}
